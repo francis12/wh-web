@@ -209,6 +209,7 @@
                 this.role.name = null;
                 this.role.modules = null;
                 this.role.describe = null;
+                this.role.role = null;
             },
             /*roleNew实体初始化*/
             initRoleNew(){
@@ -216,6 +217,7 @@
                 this.roleNew.name = null;
                 this.roleNew.modules = null;
                 this.roleNew.describe = null;
+                this.roleNew.role = null;
             },
             /*roleModify实体初始化*/
             initRoleModify(){
@@ -223,6 +225,7 @@
                 this.roleModify.name = null;
                 this.roleModify.modules = null;
                 this.roleModify.describe = null;
+                this.roleModify.role = null;
             },
             /*roleNew设置*/
             roleSet(e){
@@ -230,6 +233,7 @@
                 this.role.name = e.name;
                 this.role.modules = e.modules;
                 this.role.describe = e.describe;
+                this.role.role = e.role;
             },
             /*roleNew设置*/
             roleNewSet(e){
@@ -237,6 +241,7 @@
                 this.roleNew.name = e.name;
                 this.roleNew.modules = e.modules;
                 this.roleNew.describe = e.describe;
+                this.roleNew.role = e.role;
             },
             /*roleModify设置*/
             roleModifySet(e){
@@ -244,6 +249,7 @@
                 this.roleModify.name = e.name;
                 this.roleModify.modules = e.modules;
                 this.roleModify.describe = e.describe;
+                this.roleModify.role = e.role;
             },
             /*得到表数据*/
             getTable(e) {
